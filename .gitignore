@@ -118,3 +118,14 @@ all.config
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+
+# devenv
+out
+AnyKernel2
+kernel.log
+daisy-stock*sh
+sakura-stock*sh
+stock
+clang
+gcc
+*.rej
