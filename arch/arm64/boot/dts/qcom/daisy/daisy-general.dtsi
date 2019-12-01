@@ -27,7 +27,7 @@
 					status = "disable";
 				};
 				vendor {
-					fsmgr_flags = "wait,verify,slotselect";
+					fsmgr_flags = "wait,slotselect";
 				};
 			};
 		};
