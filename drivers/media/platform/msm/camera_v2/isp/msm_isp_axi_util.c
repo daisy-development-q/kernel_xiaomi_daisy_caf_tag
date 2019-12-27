@@ -615,7 +615,8 @@ static int msm_isp_composite_irq(struct vfe_device *vfe_dev,
  *
  * Returns void
  */
-static void msm_isp_update_framedrop_reg(struct msm_vfe_axi_stream *stream_info)
+static void msm_isp_update_framedrop_reg(struct msm_vfe_axi_stream *stream_info,
+		uint32_t drop_reconfig)
 {
 	if (stream_info->stream_type == BURST_STREAM) {
 		if (stream_info->runtime_num_burst_capture == 0 ||
