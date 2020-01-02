@@ -6,3 +6,4 @@
 #include "daisy-mdss.dtsi"
 #include "daisy-qrd.dtsi"
 #include "daisy-camera.dtsi"
+#include "daisy-gpu-oc.dtsi"
